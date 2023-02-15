@@ -19,25 +19,43 @@
 <body>
 
     <div class="__general-container">
-        <div class="__nav d-flex align-items-center p-3 __debug">
+        <div class="__nav d-flex align-items-center gap-3 p-3">
             <div class="__logo">
                 <img src="img/logo.svg" alt="logo boolean">
             </div>
-            <div class="__search-bar w-100 px-3">
+            <div class="__search-bar w-100">
                 <form action="">
-                    <input class="w-100 border-0 rounded-1 bg-body-secondary p-1 __search-icon" type"src"
+                    <input class="w-100 border-0 rounded-1 bg-body-secondary p-2 __search-icon" type"src"
                         placeholder="Prova a cercare: Lezioni di Laravel">
                 </form>
             </div>
-            <div class="__icon-1"></div>
-            <div class="__icon-2"></div>
-            <div class="__icon-3"></div>
-            <div class="__icon-4"></div>
+            <div class="__icon-1">
+                <i class="fa-solid fa-list-ul"></i>
+            </div>
+            <div class="__icon-2">
+                <i class="fa-solid fa-circle-question"></i>
+            </div>
+            <div class="__icon-3">
+                <i class="fa-solid fa-ellipsis-vertical"></i>
+            </div>
+            <div class="__icon-4">
+                <div class="btn-group">
+                    <button type="button" class="border-0 bg-white" data-bs-toggle="dropdown"
+                        data-bs-display="static" aria-expanded="false">
+                        <i class="fa-solid fa-bell text-warning"></i>
+                    </button>
+                    <ul class="dropdown-menu dropdown-menu-end">
+                        <li><button class="dropdown-item" type="button">Profilo</button></li>
+                        <li><button class="dropdown-item" type="button">Fatturazione</button></li>
+                        <li><button class="dropdown-item" type="button">Logout</button></li>
+                    </ul>
+                </div>
+            </div>
         </div>
 
         <div class="__main-container d-flex">
 
-            <div class="__aside __debug">
+            <div class="__aside">
 
             </div>
 
