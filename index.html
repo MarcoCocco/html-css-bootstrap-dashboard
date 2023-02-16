@@ -27,7 +27,7 @@
                 <form class="border-0 rounded-1 bg-body-secondary px-2 d-flex align-items-center flex-row-reverse">
                     <input class="w-100 border-0 bg-body-secondary p-2" type"src"
                         placeholder="Prova a cercare: Lezioni di Laravel">
-                        <label for="src"><i class="fa-solid fa-magnifying-glass fs-6"></i></label>
+                    <label for="src"><i class="fa-solid fa-magnifying-glass fs-6"></i></label>
                 </form>
             </div>
             <div class="__icon-1">
@@ -41,8 +41,8 @@
             </div>
             <div class="__icon-4">
                 <div class="btn-group">
-                    <button type="button" class="border-0 bg-white" data-bs-toggle="dropdown"
-                        data-bs-display="static" aria-expanded="false">
+                    <button type="button" class="border-0 bg-white" data-bs-toggle="dropdown" data-bs-display="static"
+                        aria-expanded="false">
                         <i class="fa-solid fa-bell text-warning"></i>
                     </button>
                     <ul class="dropdown-menu dropdown-menu-end">
@@ -62,8 +62,94 @@
 
             <div class="__main-header-container d-flex flex-column">
 
-                <header class="containe-fluid __debug">
-
+                <header class="d-flex justify-content-between align-items-center container-fluid p-4 w-100 text-light">
+                    <div class="__header-left">
+                        <h3 class="d-inline-block p-0">Boolean</h3>
+                        <span class="badge rounded-pill bg-black p-1 bg-opacity-25">Piano blaze</span>
+                        <div style="--bs-breadcrumb-divider: '&#187;';" aria-label="breadcrumb">
+                            <ol class="breadcrumb m-0">
+                                <li class="breadcrumb-item"><a href="#"><span
+                                            class="badge rounded-pill bg-black p-1 bg-opacity-25">3 app</span></a></li>
+                                <li class="breadcrumb-item active" aria-current="page"><span
+                                        class="badge rounded-pill bg-black p-1 bg-opacity-25">Boolean mobile app</span>
+                                </li>
+                                <li class="px-2"><span class="badge rounded-pill bg-black p-1 bg-opacity-25">Boolean web
+                                        app</span></li>
+                                <li><span class="badge rounded-pill bg-black p-1 bg-opacity-25">Boolean blog app</span>
+                                </li>
+                            </ol>
+                        </div>
+                    </div>
+                    <div class="__header-center">
+                        <div>Studenti online negli ultimi 30 minuti</div>
+                        <div class="fs-2">125</div>
+                    </div>
+                    <div class="__header-right d-flex align-items-center gap-3">
+                        <span>Nuovo studente</span>
+                        <div>
+                            <button class="btn btn-outline-light fs-5 pt-0" type="button" data-bs-toggle="offcanvas"
+                                data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+                                +
+                            </button>
+                            <div class="offcanvas offcanvas-end __canvas" tabindex="-1" id="offcanvasExample"
+                                aria-labelledby="offcanvasExampleLabel">
+                                <div class="offcanvas-header">
+                                    <h5 class="offcanvas-title" id="offcanvasExampleLabel">Inserisci un nuovo studente
+                                    </h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="offcanvas-body">
+                                    <form class="row g-3">
+                                        <div class="col-md-6">
+                                            <label for="formGroupExampleInput" class="form-label">Nome</label>
+                                            <input type="text" class="form-control" id="formGroupExampleInput">
+                                        </div>
+                                        <div class="col-md-6">
+                                            <label for="formGroupExampleInput" class="form-label">Cognome</label>
+                                            <input type="text" class="form-control" id="formGroupExampleInput">
+                                        </div>
+                                        <div class="col-6">
+                                            <label class="visually-hidden" for="autoSizingInputGroup">Username</label>
+                                            <div class="input-group">
+                                              <div class="input-group-text">@</div>
+                                              <input type="text" class="form-control" id="autoSizingInputGroup" placeholder="Email">
+                                        </div>
+                                        <div class="col-6">
+                                            <label for="inputPassword4" class="form-label">Password</label>
+                                            <input type="password" class="form-control" id="inputPassword4">
+                                        </div>
+                                        <div class="col-md-6">
+                                          <label for="inputCity" class="form-label">City</label>
+                                          <input type="text" class="form-control" id="inputCity">
+                                        </div>
+                                        <div class="col-md-4">
+                                          <label for="inputState" class="form-label">State</label>
+                                          <select id="inputState" class="form-select">
+                                            <option selected>Choose...</option>
+                                            <option>...</option>
+                                          </select>
+                                        </div>
+                                        <div class="col-md-2">
+                                          <label for="inputZip" class="form-label">Zip</label>
+                                          <input type="text" class="form-control" id="inputZip">
+                                        </div>
+                                        <div class="col-12">
+                                          <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" id="gridCheck">
+                                            <label class="form-check-label" for="gridCheck">
+                                              Check me out
+                                            </label>
+                                          </div>
+                                        </div>
+                                        <div class="col-12">
+                                          <button type="submit" class="btn btn-primary">Sign in</button>
+                                        </div>
+                                      </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </header>
 
                 <main class=" container-fluid">
