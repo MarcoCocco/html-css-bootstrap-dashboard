@@ -25,11 +25,12 @@
             </div>
             <div class="__search-bar w-100">
                 <form>
-                <label class="visually-hidden" for="autoSizingInputGroup">Cerca</label>
-                <div class="input-group">
-                    <div class="input-group-text"><i class="fa-solid fa-magnifying-glass fs-6"></i></div>
-                    <input type="search" class="form-control" id="autoSizingInputGroup" placeholder="Prova a cercare: Lezioni di Laravel">
-                </div>
+                    <label class="visually-hidden" for="autoSizingInputGroup">Cerca</label>
+                    <div class="input-group">
+                        <div class="input-group-text"><i class="fa-solid fa-magnifying-glass fs-6"></i></div>
+                        <input type="search" class="form-control" id="autoSizingInputGroup"
+                            placeholder="Prova a cercare: Lezioni di Laravel">
+                    </div>
                 </form>
             </div>
             <div class="__icon-1">
@@ -55,19 +56,20 @@
                 </div>
             </div>
         </div>
-        
-<!-- tablet-mobile navbar -->
-        <div class="__nav d-flex align-items-center gap-3 p-3 d-block d-lg-none">
+
+        <!-- tablet-mobile navbar -->
+        <div class="__nav d-flex align-items-center gap-3 p-3 d-flex d-lg-none">
             <div class="__mobile-logo">
                 <img src="img/mobile-logo.png" alt="mobile logo boolean">
             </div>
             <div class="__search-bar w-100">
                 <form>
-                <label class="visually-hidden" for="autoSizingInputGroup">Cerca</label>
-                <div class="input-group">
-                    <div class="input-group-text"><i class="fa-solid fa-magnifying-glass fs-6"></i></div>
-                    <input type="search" class="form-control" id="autoSizingInputGroup" placeholder="Prova a cercare: Lezioni di Laravel">
-                </div>
+                    <label class="visually-hidden" for="autoSizingInputGroup">Cerca</label>
+                    <div class="input-group">
+                        <div class="input-group-text"><i class="fa-solid fa-magnifying-glass fs-6"></i></div>
+                        <input type="search" class="form-control" id="autoSizingInputGroup"
+                            placeholder="Prova a cercare: Lezioni di Laravel">
+                    </div>
                 </form>
             </div>
             <div class="__icon-4">
@@ -87,25 +89,46 @@
 
         <div class="__main-container d-flex">
 
-            <div class="__aside">
-                <div class="row p-4">
+            <div class="__aside p-3 d-none d-lg-block">
+                <div class="row">
                     <div class="col-12">
                         <button type="button"
-                            class="d-flex align-items-center gap-2 btn btn-outline-secondary border-0 rounded-0 text-light w-100">
+                            class="d-flex align-items-center justify-content-start gap-2 btn btn-outline-secondary border-0 rounded-0 text-light w-100">
                             <i class="fa-solid fa-house"></i> Home
                         </button>
                     </div>
                     <div class="col-12">
                         <button type="button"
-                            class="d-flex align-items-center gap-2 btn btn-outline-secondary border-0 rounded-0 text-light w-100">
+                            class="d-flex align-items-center justify-content-start gap-2 btn btn-outline-secondary border-0 rounded-0 text-light w-100">
                             <i class="fa-solid fa-chart-simple"></i> Stats
                         </button>
                     </div>
                     <div class="col-12">
                         <button type="button"
-                            class="d-flex align-items-center gap-2 btn btn-outline-secondary border-0 rounded-0 text-light w-100">
+                            class="d-flex align-items-center justify-content-start gap-2 btn btn-outline-secondary border-0 rounded-0 text-light w-100">
                             <i class="fa-solid fa-signal"></i> Signals
                         </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- tablet mobile aside -->
+            <div class="__aside-mobile d-block d-lg-none">
+                <div class="row py-4 text-center">
+                    <div class="col-12">
+                        <button type="button"
+                            class="d-flex justify-content-center btn btn-outline-secondary border-0 rounded-0 text-light w-100">
+                            <i class="fa-solid fa-house"></i></button>
+                    </div>
+                    <div class="col-12">
+                        <button type="button"
+                            class="d-flex justify-content-center btn btn-outline-secondary border-0 rounded-0 text-light w-100">
+                            <i class="fa-solid fa-chart-simple"></i></button>
+                    </div>
+                    <div class="col-12">
+                        <button type="button"
+                            class="d-flex justify-content-center btn btn-outline-secondary border-0 rounded-0 text-light w-100">
+                            <i class="fa-solid fa-signal"></i></button>
                     </div>
                 </div>
             </div>
