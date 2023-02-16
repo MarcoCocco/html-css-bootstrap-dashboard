@@ -24,10 +24,12 @@
                 <img src="img/logo.svg" alt="logo boolean">
             </div>
             <div class="__search-bar w-100">
-                <form class="border-0 rounded-1 bg-body-secondary px-2 d-flex align-items-center flex-row-reverse">
-                    <input class="w-100 border-0 bg-body-secondary p-2" type"src"
-                        placeholder="Prova a cercare: Lezioni di Laravel">
-                    <label for="src"><i class="fa-solid fa-magnifying-glass fs-6"></i></label>
+                <form>
+                <label class="visually-hidden" for="autoSizingInputGroup">Cerca</label>
+                <div class="input-group">
+                    <div class="input-group-text"><i class="fa-solid fa-magnifying-glass fs-6"></i></div>
+                    <input type="search" class="form-control" id="autoSizingInputGroup" placeholder="Prova a cercare: Lezioni di Laravel">
+                </div>
                 </form>
             </div>
             <div class="__icon-1">
@@ -57,7 +59,26 @@
         <div class="__main-container d-flex">
 
             <div class="__aside">
-
+                <div class="row p-4">
+                    <div class="col-12">
+                        <button type="button"
+                            class="d-flex align-items-center gap-2 btn btn-outline-secondary border-0 rounded-0 text-light w-100">
+                            <i class="fa-solid fa-house"></i> Home
+                        </button>
+                    </div>
+                    <div class="col-12">
+                        <button type="button"
+                            class="d-flex align-items-center gap-2 btn btn-outline-secondary border-0 rounded-0 text-light w-100">
+                            <i class="fa-solid fa-chart-simple"></i> Stats
+                        </button>
+                    </div>
+                    <div class="col-12">
+                        <button type="button"
+                            class="d-flex align-items-center gap-2 btn btn-outline-secondary border-0 rounded-0 text-light w-100">
+                            <i class="fa-solid fa-signal"></i> Signals
+                        </button>
+                    </div>
+                </div>
             </div>
 
             <div class="__main-header-container d-flex flex-column">
@@ -172,7 +193,7 @@
                                     <div class="card">
                                         <h3 class="card-header">Prossime Classi</h3>
                                         <div class="card-body">
-                                            <table class="table __table">
+                                            <table class="table table-hover __table">
                                                 <thead>
                                                     <tr>
                                                         <td>Nome</td>
