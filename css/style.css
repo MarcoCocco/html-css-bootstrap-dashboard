@@ -10,6 +10,10 @@
     background-color: white;
 }
 
+.__mobile-logo img {
+    width: 50px;
+}
+
 .__main-container {
     width: 100%;
     height: calc(100vh - 70px);
