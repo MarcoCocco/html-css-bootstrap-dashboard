@@ -80,3 +80,9 @@ main {
     border-radius: 5px;
     color: #6c757d;
 }
+
+@media screen and (max-width: 991px) {
+    .offcanvas.offcanvas-end.__canvas {
+        width: 100%;
+    }
+}
