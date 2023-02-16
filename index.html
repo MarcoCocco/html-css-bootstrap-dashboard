@@ -100,52 +100,64 @@
                                         aria-label="Close"></button>
                                 </div>
                                 <div class="offcanvas-body">
-                                    <form class="row g-3">
-                                        <div class="col-md-6">
+                                    <form class="row row-cols-2 g-3">
+                                        <div class="col-6">
                                             <label for="formGroupExampleInput" class="form-label">Nome</label>
                                             <input type="text" class="form-control" id="formGroupExampleInput">
                                         </div>
-                                        <div class="col-md-6">
+                                        <div class="col-6">
                                             <label for="formGroupExampleInput" class="form-label">Cognome</label>
                                             <input type="text" class="form-control" id="formGroupExampleInput">
                                         </div>
                                         <div class="col-6">
-                                            <label class="visually-hidden" for="autoSizingInputGroup">Username</label>
+                                            <label for="formGroupExampleInput" class="form-label">Email</label>
                                             <div class="input-group">
-                                              <div class="input-group-text">@</div>
-                                              <input type="text" class="form-control" id="autoSizingInputGroup" placeholder="Email">
+                                                <div class="input-group-text">@</div>
+                                                <input type="text" class="form-control" id="autoSizingInputGroup">
+                                            </div>
                                         </div>
                                         <div class="col-6">
-                                            <label for="inputPassword4" class="form-label">Password</label>
-                                            <input type="password" class="form-control" id="inputPassword4">
-                                        </div>
-                                        <div class="col-md-6">
-                                          <label for="inputCity" class="form-label">City</label>
-                                          <input type="text" class="form-control" id="inputCity">
-                                        </div>
-                                        <div class="col-md-4">
-                                          <label for="inputState" class="form-label">State</label>
-                                          <select id="inputState" class="form-select">
-                                            <option selected>Choose...</option>
-                                            <option>...</option>
-                                          </select>
-                                        </div>
-                                        <div class="col-md-2">
-                                          <label for="inputZip" class="form-label">Zip</label>
-                                          <input type="text" class="form-control" id="inputZip">
+                                            <label for="formGroupExampleInput" class="form-label">Password</label>
+                                            <input type="password" class="form-control" id="formGroupExampleInput">
                                         </div>
                                         <div class="col-12">
-                                          <div class="form-check">
-                                            <input class="form-check-input" type="checkbox" id="gridCheck">
-                                            <label class="form-check-label" for="gridCheck">
-                                              Check me out
-                                            </label>
-                                          </div>
+                                            <label for="inputAddress" class="form-label">Indirizzo</label>
+                                            <input type="text" class="form-control" id="inputAddress">
+                                        </div>
+
+                                        <div class="col-6">
+                                            <label for="formGroupExampleInput" class="form-label">Città</label>
+                                            <input type="text" class="form-control" aria-label="City">
+                                        </div>
+                                        <div class="col-4">
+                                            <label for="formGroupExampleInput" class="form-label">Stato</label>
+                                            <input type="text" class="form-control" aria-label="State">
+                                        </div>
+                                        <div class="col-2">
+                                            <label for="formGroupExampleInput" class="form-label">Cap</label>
+                                            <input type="text" class="form-control" aria-label="Zip">
                                         </div>
                                         <div class="col-12">
-                                          <button type="submit" class="btn btn-primary">Sign in</button>
+                                            <label for="formGroupExampleInput" class="form-label">Foto</label>
+                                            <div class="input-group">
+                                                <div class="input-group-text">Scegli file</div>
+                                                <input type="text" class="form-control" id="autoSizingInputGroup">
+                                            </div>
                                         </div>
-                                      </form>
+                                        <div class="col-12">
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" value=""
+                                                    id="flexCheckDefault">
+                                                <label class="form-check-label" for="flexCheckDefault">
+                                                    Seleziona per proseguire
+                                                </label>
+                                            </div>
+                                        </div>
+                                        <div class="col-12">
+                                            <button type="button" class="btn btn-primary">Salva</button>
+                                            <button type="button" class="btn btn-warning">Svuota</button>
+                                        </div>
+                                    </form>
                                 </div>
                             </div>
                         </div>
